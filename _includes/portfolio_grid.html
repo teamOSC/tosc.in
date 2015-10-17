@@ -9,7 +9,7 @@
             </div>
             <div class="row">
             {% for page in site.pages %}
-            	{% if page.pagetype == "portfolio" %}
+            	{% if page.layout == "portfolio" %}
 	                <div class="col-md-4 col-sm-6 portfolio-item">
 	                    <a href="#portfolioModal{{ page.modal-id }}" class="portfolio-link" data-toggle="modal">
 	                        <div class="portfolio-hover">
