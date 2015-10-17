@@ -2,7 +2,8 @@ url: https://tosc.in
 #baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: TeamOSC
+title: tosc Studio
+subtitle: Welcome to Team OSC's Studio
 email: championswimmer@gmail.com
 description: "TeamOSC is a group of Developers from Delhi who build wonderful apps and websites for startups"
 
@@ -11,41 +12,6 @@ color:
   primary: fed136
   secondary: fec503  
   secondary-dark: 333
-
-# Team names, titles and social links
-people:
-- name: Umair Khan
-  pic: 1
-  position: Founder, The Hacker
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: http://fb.me/omerjerk
-    - title: stack-overflow
-      url: #
-
-- name: Saurav Tomar
-  pic: 2
-  position: Founder, The Dreamer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Arnav Gupta
-  pic: 3
-  position: Founder, The Evangelist
-  social:
-    - title: twitter
-      url: http://twitter.com/championswimmer
-    - title: facebook
-      url: http://fb.me/championswimmer
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

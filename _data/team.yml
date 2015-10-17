@@ -1,0 +1,94 @@
+# Team names, titles and social links
+big:
+- name: Umair Khan
+  pic: umair
+  position: Founder & Hacker
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: http://fb.me/omerjerk
+    - title: stack-overflow
+      url: #
+
+- name: Saurav Tomar
+  pic: saurav
+  position: Founder & Dreamer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Arnav Gupta
+  pic: arnav
+  position: Founder & Evangelist
+  social:
+    - title: twitter
+      url: http://twitter.com/championswimmer
+    - title: facebook
+      url: http://fb.me/championswimmer
+    - title: google-plus
+      url: #
+
+- name: Abhinav Sinha
+  pic: abhinav
+  position: Drone Maker
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+
+medium:
+-
+
+- name: Prempal Singh
+  pic: prempal
+  position: Coupon King
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Raghav Apoorv
+  pic: raghav
+  position: UX Expert
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Shubham Kumar
+  pic: shubham
+  position: ML Guru
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Naman Dwivedi
+  pic: naman
+  position: UI Artist
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+-
