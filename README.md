@@ -7,7 +7,7 @@ Built using [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme)
 
 ###Portfolio 
 
-Portfolio projects are in `/_posts`
+Portfolio projects are in `/_pages`
 
 Images are in `/img/portfolio`
 

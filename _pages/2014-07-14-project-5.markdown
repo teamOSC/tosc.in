@@ -1,11 +1,12 @@
 ---
-title: Escape
+title: Startup Framework
 subtitle: Website Design
 layout: default
-modal-id: 2
-date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+pagetype: portfolio
+modal-id: 5
+date: 2014-07-14
+img: startup-framework.png
+thumbnail: startup-framework-thumbnail.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
