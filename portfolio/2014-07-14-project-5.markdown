@@ -1,4 +1,5 @@
 ---
+permalink: "/project5/"
 title: Startup Framework
 subtitle: Website Design
 layout: portfolio
