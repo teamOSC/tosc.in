@@ -6,15 +6,34 @@
 
     <body id="page-top" class="index">
 
-    {% include header.html %}
-    {% include services.html %}
-    {% include portfolio_grid.html %}
-    {% include about.html %}
-    {% include team.html %}
-    {% include clients.html %}
-    {% include contact.html %}
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                  <div class="modal-body">
+                      <h2 style="text-align: center;">{{ page.title }}</h2>
+                      <hr class="star-primary">
+                      <img src="{{ page.permalink }}{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                      <p>{{ page.project.summary }}</p>
+                      <ul>
+                          <li>Client:
+                              <strong><a href="{{ page.project.client-url }}">{{ page.project.client }}</a>
+                              </strong>
+                          </li>
+                          <li>Date:
+                              <strong><a>{{ page.project.date }}</a>
+                              </strong>
+                          </li>
+                          <li>Service:
+                              <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
+                              </strong>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+
     {% include footer.html %}
-    {% include modals.html %}
     {% include js.html %}
 
     </body>

@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for page in site.pages %}
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ page.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="project-{{ page.project.id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -14,15 +14,15 @@
                         <div class="modal-body">
                             <h2>{{ page.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
-                            <p>{{ page.description }}</p>
+                            <img src="{{ site.url }}{{ page.permalink }}{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                            <p>{{ page.project.summary }}</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ page.client }}</a>
+                                    <strong><a href="{{ page.project.client-url }}">{{ page.project.client }}</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ page.project-date }}</a>
+                                    <strong><a href="{{ site.url }}{{ page.permalink }}">{{ page.project.date }}</a>
                                     </strong>
                                 </li>
                                 <li>Service:

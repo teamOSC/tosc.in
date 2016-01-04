@@ -11,13 +11,13 @@
             {% for page in site.pages %}
             {% if page.layout == "portfolio" %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ page.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#project-{{ page.project.id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/{{ page.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="{{ site.url }}{{ page.permalink }}{{ page.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>{{ page.title }}</h4>

@@ -1,5 +1,5 @@
-url: https://tosc.in
-#baseurl: /agency-jekyll-theme/
+url: http://localhost:4000
+#url: http://tosc.in
 
 # Site settings
 title: tosc Studio
