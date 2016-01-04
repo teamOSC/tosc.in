@@ -7,9 +7,9 @@
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row row-centered" style="float: none; margin: 0 auto;">
                 {% for member in site.data.team.big %}
-                <div class="col-sm-3">
+                <div class="col-sm-3 col-xs-6">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
@@ -25,8 +25,9 @@
                 {% endfor %}
             </div>
             <div class="row row-centered">
+              <div class="col-sm-8" style="float: none; margin: 0 auto;">
                 {% for member in site.data.team.medium %}
-                <div class="col-sm-2">
+                <div class="col-sm-3 col-xs-3">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
@@ -39,11 +40,11 @@
                                 </a>
                             </li>
                             {% endfor %}
-
                         </ul>
                     </div>
                 </div>
                 {% endfor %}
+              </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
