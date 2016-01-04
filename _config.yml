@@ -1,5 +1,5 @@
-#url: http://localhost:4000
-url: http://tosc.in
+url: http://localhost:4000
+#url: http://tosc.in
 
 # Site settings
 title: tosc Studio
@@ -35,8 +35,5 @@ address:
   - line: Shahbad, New Delhi 90210
 
 # Build settings
-markdown: redcarpet
-highlighter: pygments
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
+markdown: kramdown
 permalink: pretty
