@@ -1,23 +1,15 @@
-Team OSC Website
-================
+# TOSC Studio Portfolio Website
 
-Built using [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme)
+## How to add info
 
-# How to use
+### Add team member
+Add entry to `_data/team.yml`
 
-###Portfolio 
+### Add new project
 
-Portfolio projects are in `/_pages`
+Create folder `project/<project name>/`  
+Save a 400x300 thumb.png  
+Save a banner.png  
 
-Images are in `/img/portfolio`
-
-###About
-
-Images are in `/img/about/`
-
-###Team
-
-Team members and info are in `_config.yml`
-
-Images are in `/img/team/`
-
+Add an index.md file. See [](project/saga/index.md) for reference  
+Add all project related details, photos in the index.md
