@@ -13,9 +13,14 @@ project:
   date: April 2014
   client: Saga
   client-url: http://getsa.ga
-  summary: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+  summary: Saga is the most beautiful way to connect with music.
+
 ---
 
-<div align="center" markdown="1"> 
+Saga only downloads the best quality music, with album art and track information embedded in every track.
+Your app is always up to date with Saga's in-built updating system. You never have to download another APK.
+There are no restrictions to the number of songs you can stream or download. It's free and always will be.
+
+<div align="center" markdown="1">
 ![Screen 2](scr2.png)
 </div>
