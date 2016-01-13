@@ -19,7 +19,7 @@ $(function() {
             }
             $.ajax({
                 url: "http://files.championswimmer.in/mail.php",
-                type: "GET",
+                type: "POST",
                 data: {
                     name: name,
                     phone: phone,
