@@ -7,7 +7,7 @@ date: 2015-07-18
 img: saga_banner.png
 thumbnail: thumb.png
 alt: image-alt
-category: Web Development
+category: Mobile Development
 project:
   id: saga
   date: April 2014

@@ -7,7 +7,7 @@ date: 2015-07-18
 img: banner.png
 thumbnail: thumb.png
 alt: image-alt
-category: Web Development
+category: Mobile Development
 project:
   id: learnhut
   date: July 2015
