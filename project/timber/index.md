@@ -4,7 +4,7 @@ title: Timber
 subtitle: Android App
 layout: portfolio
 date: 2015-07-25
-img: bannner.jpg
+img: banner.jpg
 thumbnail: thumb.png
 alt: image-alt
 category: Mobile Development
