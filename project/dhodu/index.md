@@ -16,3 +16,8 @@ project:
   summary: A 24 hours on demand laundry startup.
 
 ---
+<div align="center">
+<a href="dhodu1.jpg"><img width="240px" style="padding: 10px;" src="1.png"/></a>
+<a href="dhodu2.jpg"><img width="240px" style="padding: 10px;" src="2.png"/></a>
+<a href="dhodu3.jpg"><img width="240px" style="padding: 10px;" src="3.png"/></a>
+</div>
