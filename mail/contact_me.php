@@ -15,7 +15,6 @@ $name = $_GET['name'];
 $email_address = $_GET['email'];
 $phone = $_GET['phone'];
 $message = $_GET['message'];
-$callback = $_GET['callback'];
 
 // Create the email and send the message
 $to = 'championswimmer+tosc@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
@@ -34,7 +33,6 @@ $email
 ;
 
 $sendgrid->send($email);
-
 
 return true;
 ?>
